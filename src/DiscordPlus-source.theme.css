@@ -242,7 +242,7 @@
 	--header-primary: hsl(
 	0,
 	0%,
-	calc(var(--dplus-foreground-color-lightness-amount) * 80%)
+	calc(var(--dplus-foreground-color-lightness-amount) * 100%)
 	);
 	--header-secondary: hsl(
 	calc(var(--dplus-foreground-color-hue-base) + 6),
