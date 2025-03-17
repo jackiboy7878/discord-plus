@@ -124,7 +124,7 @@
 }
 
 .theme-dark {
-	--dplus-backdrop: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.imgur.com/ehrLRbB.jpeg);
+	--dplus-backdrop: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), url(https://i.imgur.com/ehrLRbB.jpeg);
 	
 	/* accent color is used for things like buttons */
 	--dplus-accent-color-hue: 320; /* hue in HSL */
