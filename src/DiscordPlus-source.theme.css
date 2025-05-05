@@ -1055,7 +1055,7 @@ that have popups, or else the menu breaks when you hover over them */
 .sidebar_c48ade {
 	background: var(--dplus-bgc-ui-base);
 	/*border-radius: var(--dplus-radius-ui) !important;*/
-	border-radius: 50;
+	border-radius: 50px;
 	margin-right: var(--dplus-spacing-app);
 }
 .visual-refresh .sidebarList_c48ade {
