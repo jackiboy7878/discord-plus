@@ -1054,14 +1054,14 @@ that have popups, or else the menu breaks when you hover over them */
 }
 .sidebar_c48ade {
 	background: var(--dplus-bgc-ui-base);
-	/*border-radius: var(--dplus-radius-ui) !important;*/
-	border-radius: 50px !important;
+	border-radius: var(--dplus-radius-ui) !important;
 	margin-right: var(--dplus-spacing-app);
 }
 .visual-refresh .sidebarList_c48ade {
 	background: var(--dplus-bgc-ui-base);
 	margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--dplus-spacing-ui) );
-	border-radius: var(--dplus-radius-ui) !important;
+	/*border-radius: var(--dplus-radius-ui) !important;*/
+	border-radius: 50px !important;
 }
 .visual-refresh .sidebar_c48ade:after{display: none;}
 	/*-- 11.2 DMs Sidebar --*/
