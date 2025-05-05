@@ -999,7 +999,7 @@ that have popups, or else the menu breaks when you hover over them */
 	border-radius: var(--dplus-radius-ui);
 	margin-right: var(--dplus-spacing-app);
 }
-.pill__1f388 {border-radius: 0!important;} /*removes the radius on unread message pill*/
+/*.pill__1f388 {border-radius: 0!important;} /*removes the radius on unread message pill*/
 .guilds_c48ade, .listItem__650eb {
 	width: calc(var(--dplus-icon-server-sidebar) + var(--dplus-spacing-ui) * 2);
 }
