@@ -999,7 +999,7 @@ that have popups, or else the menu breaks when you hover over them */
 	border-radius: var(--dplus-radius-ui);
 	margin-right: var(--dplus-spacing-app);
 }
-/*.pill__1f388 {border-radius: 0!important;} /*removes the radius on unread message pill*/
+.pill__1f388 {border-radius: 0!important;} /*removes the radius on unread message pill*/
 .guilds_c48ade, .listItem__650eb {
 	width: calc(var(--dplus-icon-server-sidebar) + var(--dplus-spacing-ui) * 2);
 }
@@ -1054,7 +1054,8 @@ that have popups, or else the menu breaks when you hover over them */
 }
 .sidebar_c48ade {
 	background: var(--dplus-bgc-ui-base);
-	border-radius: var(--dplus-radius-ui) !important;
+	/*border-radius: var(--dplus-radius-ui) !important;*/
+	border-radius: 50;
 	margin-right: var(--dplus-spacing-app);
 }
 .visual-refresh .sidebarList_c48ade {
