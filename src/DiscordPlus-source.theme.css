@@ -1256,7 +1256,8 @@ margin-right: 0;
 	padding-left: 0;
 	margin-left: 0;
 	background-color: hsl(var(--yellow-300-hsl)/0.2);
-	border-radius: var(--dplus-radius-ui);
+	/*border-radius: var(--dplus-radius-ui);*/
+	border-radius: 50px;
 }
 .flash__03436 .message__5126c {
 	background-color: var(--dplus-bgc-chatmsg);
