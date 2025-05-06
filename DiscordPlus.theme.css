@@ -1,15 +1,11 @@
 /**
  * @name WuWa Theme
  * @author jackiboy7878
- * @authorId 309931975102300160
- * @authorLink https://jackiboy7878.xyz
  * @version 2.0.0
  * @description A sleek, customizable Discord theme.
- * @donate https://ko-fi.com/jackiboy7878
  * @website https://jackiboy7878.github.io/discord-plus
  * @source https://github.com/jackiboy7878/discord-plus
  * @updateUrl https://jackiboy7878.github.io/discord-plus/DiscordPlus.theme.css
- * @invite 2Jwh2nS
 */
 @import url(https://jackiboy7878.github.io/discord-plus/src/DiscordPlus-source.theme.css);
 
@@ -18,42 +14,42 @@
 .theme-dark {
 /* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
    To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
-  --dplus-backdrop: url(https://jackiboy7878.github.io/discord-plus/assets/discord/theme_dark_bg.png);
+  --dplus-backdrop: url(https://jackiboy7878.github.io/discord-plus/assets/discord/theme_light_bg.png);
 
 /* Accent color, used to decorate the UI with colors. */
-  --dplus-accent-color-hue: 600;
+  --dplus-accent-color-hue: 940;
   --dplus-accent-color-saturation: 60%;
   --dplus-accent-color-lightness: 31%;
 
 /* Foreground color: For things like text and icons. */
-  --dplus-foreground-color-hue-base: 210;
+  --dplus-foreground-color-hue-base: 400;
   --dplus-foreground-color-hue-links: 197;
-  --dplus-foreground-color-saturation-amount: 1;
-  --dplus-foreground-color-lightness-amount: 1;
+  --dplus-foreground-color-saturation-amount: 0;
+  --dplus-foreground-color-lightness-amount: 0.1;
 
 /* Background color: Covers the backdrop so the app is easier to read. */
-  --dplus-background-color-hue: 320;
-  --dplus-background-color-saturation-amount: 1;
-  --dplus-background-color-lightness-amount: 1;
-  --dplus-background-color-alpha: 0.8;
+  --dplus-background-color-hue: 940;
+  --dplus-background-color-saturation-amount: 0.6;
+  --dplus-background-color-lightness-amount: 0.6;
+  --dplus-background-color-alpha: 0.2;
 }
 
 /* If you use light theme, you can give it unique settings that are separate from dark theme. */
 .theme-light {
-  --dplus-backdrop: url(https://jackiboy7878.github.io/discord-plus/assets/discord/theme_light_bg.png);
+  --dplus-backdrop: url(https://jackiboy7878.github.io/discord-plus/assets/discord/theme_dark_bg.png);
   
-  --dplus-accent-color-hue: 320;
+  --dplus-accent-color-hue: 940;
   --dplus-accent-color-saturation: 60%;
   --dplus-accent-color-lightness: 31%;
   
-  --dplus-foreground-color-hue-base: 210;
+  --dplus-foreground-color-hue-base: 940;
   --dplus-foreground-color-hue-links: 197;
-  --dplus-foreground-color-saturation-amount: 1;
-  --dplus-foreground-color-lightness-amount: 1;
+  --dplus-foreground-color-saturation-amount: 0.7;
+  --dplus-foreground-color-lightness-amount: 0.5;
 
-  --dplus-background-color-hue: 320;
+  --dplus-background-color-hue: 200;
   --dplus-background-color-saturation-amount: 1;
-  --dplus-background-color-lightness-amount: 1;
+  --dplus-background-color-lightness-amount: 0.5;
   --dplus-background-color-alpha: 0.8;
 }
 
@@ -82,7 +78,7 @@ Set avatar/server radius to 50% to make them circular.
  --dplus-icon-avatar-list: 32px;
  --dplus-icon-avatar-profile: 20px;
  
- --dplus-icon-server-sidebar: 42px;
+ --dplus-icon-server-sidebar: 45px;
  --dplus-icon-server-list: 40px;
  
  /* The Home icon on the top left */
