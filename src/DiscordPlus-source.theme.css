@@ -162,6 +162,47 @@
 	--dplus-background-color-saturation-amount: 1;
 	--dplus-background-color-lightness-amount: 1;
 	--dplus-background-color-alpha: 0.8; /* how opaque the backgrounds should be, where 1 is fully opaque and 0 is fully transparent. not recommended to set to 0 unless background is very light or white */
+    /* The variable hell continues */
+    --header-primary: hsl(
+        calc(var(--dplus-foreground-color-hue-base) + 30),
+        calc(var(--dplus-foreground-color-saturation-factor) * 7.7%),
+        calc(var(--dplus-foreground-color-lightness-amount) * 2.5%)
+    );
+    --header-secondary: hsl(
+        calc(var(--dplus-foreground-color-hue-base) + 5),
+        calc(var(--dplus-foreground-color-saturation-factor) * 9.7%),
+        calc(var(--dplus-foreground-color-lightness-amount) * 34.3%)
+    );
+
+    --text-normal: hsl(0, 0%, 100%); /* White */
+    --text-muted: hsl(0, 0%, 80%); /* Light grey */
+
+    --text-link: hsl(
+        calc(var(--dplus-foreground-color-hue-links) + 15),
+        calc(var(--dplus-foreground-color-saturation-factor) * 100%),
+        calc(var(--dplus-foreground-color-lightness-amount) * 43.9%)
+    );
+    --text-link-low-saturation: hsl(
+        calc(var(--dplus-foreground-color-hue-links) + 15),
+        calc(var(--dplus-foreground-color-saturation-factor) * 100%),
+        calc(var(--dplus-foreground-color-lightness-amount) * 43.9%)
+    );
+
+    --text-positive: hsl(
+        139,
+        calc(var(--dplus-foreground-color-saturation-factor) * 47.1%),
+        calc(var(--dplus-foreground-color-lightness-amount) * 33.3%)
+    );
+    --text-warning: hsl(
+        38,
+        calc(var(--dplus-foreground-color-saturation-factor) * 81.5%),
+        calc(var(--dplus-foreground-color-lightness-amount) * 31.8%)
+    );
+    --text-danger: hsl(
+        359,
+        calc(var(--dplus-foreground-color-saturation-factor) * 85.6%),
+        calc(var(--dplus-foreground-color-lightness-amount) * 64.7%)
+    );
 }
 
 /* This marks the end of the default values section. */
@@ -327,97 +368,6 @@
 	calc(var(--dplus-foreground-color-saturation-factor) * 4.1%),
 	calc(var(--dplus-foreground-color-lightness-amount) * 57.5%)
 	);	
-}
-
-.theme-light {
-	/* The variable hell continues */
-	--header-primary: hsl(
-	calc(var(--dplus-foreground-color-hue-base) + 30),
-	calc(var(--dplus-foreground-color-saturation-factor) * 7.7%),
-	calc(var(--dplus-foreground-color-lightness-amount) * 2.5%)
-	);
-	--header-secondary: hsl(
-	calc(var(--dplus-foreground-color-hue-base) + 5),
-	calc(var(--dplus-foreground-color-saturation-factor) * 9.7%),
-	calc(var(--dplus-foreground-color-lightness-amount) * 34.3%)
-	);
-	
-	--text-normal: hsl(
-	var(--dplus-foreground-color-hue-base),
-	calc(var(--dplus-foreground-color-saturation-factor) * 9.8%),
-	calc(var(--dplus-foreground-color-lightness-amount) * 20%)
-	);
-	--text-muted: hsl(
-	calc(var(--dplus-foreground-color-hue-base) + 3),
-	calc(var(--dplus-foreground-color-saturation-factor) * 9.6%),
-	calc(var(--dplus-foreground-color-lightness-amount) * 40.8%)
-	);
-	
-	--text-link: hsl(
-	calc(var(--dplus-foreground-color-hue-links) + 15),
-	calc(var(--dplus-foreground-color-saturation-factor) * 100%),
-	calc(var(--dplus-foreground-color-lightness-amount) * 43.9%)
-	);
-	--text-link-low-saturation: hsl(
-	calc(var(--dplus-foreground-color-hue-links) + 15),
-	calc(var(--dplus-foreground-color-saturation-factor) * 100%),
-	calc(var(--dplus-foreground-color-lightness-amount) * 43.9%)
-	);
-
-	--text-positive: hsl(
-	139,
-	calc(var(--dplus-foreground-color-saturation-factor) * 47.1%),
-	calc(var(--dplus-foreground-color-lightness-amount) * 33.3%)
-	);
-	--text-warning: hsl(
-	38,
-	calc(var(--dplus-foreground-color-saturation-factor) * 81.5%),
-	calc(var(--dplus-foreground-color-lightness-amount) * 31.8%)
-	);
-	--text-danger: hsl(
-	359,
-	calc(var(--dplus-foreground-color-saturation-factor) * 85.6%),
-	calc(var(--dplus-foreground-color-lightness-amount) * 64.7%)
-	);
-	
-	--text-brand: hsl(
-	var(--dplus-accent-color-hue),
-	calc(var(--dplus-foreground-color-saturation-factor) * 85.6%),
-	calc(var(--dplus-foreground-color-lightness-amount) * 64.7%)
-	);
-	
-	--interactive-normal: hsl(
-	calc(var(--dplus-foreground-color-hue-base) + 5),
-	calc(var(--dplus-foreground-color-saturation-factor) * 9.7%),
-	calc(var(--dplus-foreground-color-lightness-amount) / 1.5 * 34.3%)
-	);
-	--interactive-hover: hsl(
-	var(--dplus-foreground-color-hue-base),
-	calc(var(--dplus-foreground-color-saturation-factor) * 9.8%),
-	calc(var(--dplus-foreground-color-lightness-amount) / 1.5 * 20%)
-	);
-	--interactive-active: hsl(
-	calc(var(--dplus-foreground-color-hue-base) + 30),
-	calc(var(--dplus-foreground-color-saturation-factor) * 7.7%),
-	calc(var(--dplus-foreground-color-lightness-amount) / 1.5 * 2.5%)
-	);
-	--interactive-muted: hsl(
-	var(--dplus-foreground-color-hue-base),
-	calc(var(--dplus-foreground-color-saturation-factor) * 9.8%),
-	calc(var(--dplus-foreground-color-lightness-amount) / 1.5 * 80%)
-	);
-	
-	--channels-default: hsl(
-	calc(var(--dplus-foreground-color-hue-base) + 3),
-	calc(var(--dplus-foreground-color-saturation-factor) * 9.6%),
-	calc(var(--dplus-foreground-color-lightness-amount) / 1.5 * 40.8%)
-	);
-
-	--channel-icon: hsl(
-	calc(var(--dplus-foreground-color-hue-base) + 3),
-	calc(var(--dplus-foreground-color-saturation-factor) * 9.4%),
-	calc(var(--dplus-foreground-color-lightness-amount) / 1.5 * 45.9%)
-	);
 }
 
 .theme-light, .theme-dark, :root {
@@ -1256,8 +1206,8 @@ margin-right: 0;
 	padding-left: 0;
 	margin-left: 0;
 	background-color: hsl(var(--yellow-300-hsl)/0.2);
-	/*border-radius: var(--dplus-radius-ui);*/
-	border-radius: 50px;
+	border-radius: var(--dplus-radius-ui);
+	/*border-radius: 50px;*/
 }
 .flash__03436 .message__5126c {
 	background-color: var(--dplus-bgc-chatmsg);
