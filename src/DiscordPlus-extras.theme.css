@@ -13,10 +13,10 @@
 
 @font-face { /* a font i made */
   font-family: PixelPetit;
-  src: url("https://jackiboy7878.xyz/assets/fonts/PixelPetit.ttf");
+  src: url("https://jackiboy7878.github.io/discord-plus/assets/fonts/PixelPetit.ttf");
 }
 
-/* make links to my domain use my style */
+/* make links to my domain use my style 
 [href*="jackiboy7878.xyz"],
 [href*="jackiboy7878.xyz"] {
   color: #d29630 !important;
